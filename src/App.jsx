@@ -5,6 +5,8 @@ import Talents from "./pages/Talents";
 import Autobiography from "./pages/Autobiography";
 
 
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
 
         <Route path="/works" element={<Portfolio />} />
         <Route path="/talents" element={<Talents />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </>
   );
