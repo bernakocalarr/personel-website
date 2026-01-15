@@ -6,6 +6,7 @@ import Autobiography from "./pages/Autobiography";
 
 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import DeleteAccount from "./pages/DeleteAccount";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/works" element={<Portfolio />} />
         <Route path="/talents" element={<Talents />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/deleteaccount" element={<DeleteAccount />} />
       </Routes>
     </>
   );
